@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palash</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            max-width: 150px;
+            height: auto;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            color: #333;
+        }
+
+        .project {
+            border-bottom: 1px solid #ccc;
+            padding: 15px 0;
+        }
+
+        .project:last-child {
+            border-bottom: none;
+        }
+
+        .project h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .project p {
+            color: #666;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            border: 2px solid #333;
+            padding: 8px 15px;
+            border-radius: 3px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Palash</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <div class="container">
+
+        <div class="profile">
+            <img src="c:\Users\siddh\.vscode\.vscode\Image\pic.pdf.jpg" alt="Profile Picture">
+            <h2>Palash</h2>
+            <p>Web Developer</p>
+        </div>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am a passionate web developer with a focus on creating responsive and user-friendly websites.
+                I enjoy turning ideas into reality through coding and problem-solving.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Landing Page</h3>
+                <p>Using Html and CSS</p>
+            </div>
+
+            <div class="project">
+                <h3>Simple Calculator</h3>
+                <p>Using Html and CSS.</p>
+            </div>
+
+            <!-- Add more projects as needed -->
+
+        </div>
+
+        <div class="section">
+            <h2>Contact Me</h2>
+            <div class="contact">
+                <p>Feel free to reach out!</p>
+                <a href="palash@12email@example.com">your.email@example.com</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
